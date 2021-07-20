@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" href="img/icone.png">
+    <title>Cabelereiro X</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#quem_somos">QUEM SOMOS</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#orcamento">ORÇAMENTO</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div id="inicio">
+            <p>Olá nós somos</p>
+            <h1 class="fade-in">Cabelereiro X</h1>
+            <p>Seja muito bem-vindo(a)!</p>
+        </div>
+    </header>
+    <main>
+        <div id="quem_somos" class="container quem_somos">
+            <h2>Quem somos?</h2>
+            <p>Somos uma equipe de cabelereiros muito dedicada à trazer felicidade para nossos clientes.</p>
+            <p class="conheca">Conheça um pouco sobre nossos funcionários:</p>
+            <div id="funcionarios">
+                <ul>
+                    <li>
+                        <h3>Cabelereiro Everton</h3>
+                        <img src="img/Cabelereiro 1.jpg" alt="Cabelereiro 1">
+                        <p>
+                            Everton vem de uma grande rede de cabelereiros da região. Ele é super entusiasmado com cortes e estilos diferentes!
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Cabelereiro Renan</h3>
+                        <img src="img/Cabelereiro 2.jpg" alt="Cabelereiro 2">
+                        <p>
+                            Renan já ganhou diversos prêmios de cabelereiro pelo país e atualmente trabalha para deixar o cliente mais feliz que nunca! 
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Cabelereiro João</h3>
+                        <img src="img/Cabelereiro 3.jpg" alt="Cabelereiro 3">
+                        <p>
+                            João é dedicado à arte de fazer o cliente satisfeito e possui diversas habilidades em seu gigantesco repertório.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Cabelereiro Silvio</h3>
+                        <img src="img/Cabelereiro 4.jpg" alt="Cabelereiro 4">
+                        <p>
+                            Silvio, ou originalmente Silvian, vem de fora do país e ama cortar cabelos e deixar os clientes felizes.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="portfolio" class="container portfolio">
+            <p>Veja algumas novas nossas imagens de portfólio:</p>
+            <ul>
+                <li><img src="img/Corte 1.jpg" alt="Corte 1"></li>
+                <li><img src="img/Corte 2.jpg" alt="Corte 2"></li>
+                <li><img src="img/Corte 3.jpg" alt="Corte 3"></li>
+                <li><img src="img/Corte 4.jpg" alt="Corte 4"></li>
+                <li><img src="img/Corte 5.jpg" alt="Corte 5"></li>
+                <li><img src="img/Corte 6.jpg" alt="Corte 6"></li>
+            </ul>
+        </div>
+        <div id="orcamento" class="container orcamento">
+            <p>Faça um possível orçamento pelo sistema do site: </p>
+            <div class="botoes">
+                <table id="tab_orcamento">
+                    <caption>
+                        R$0,00
+                    </caption>
+                    <br>
+                </table>
+                <button id="btn_corte">Adicionar Corte (R$40,00)</button><br>
+                <button id="btn_barba">Adicionar Barba (R$20,00)</button><br>
+                <button id="btn_corte_barba">Adicionar Corte + Barba (R$50,00)</button>
+            </div>
+        </div>
+        <div id="contato" class="container contato">
+            <p>Entre em contato conosco para mais informações: </p>
+            <form>
+                <input type="text" name="nome" id="nome" maxlength="38" required placeholder="Nome">
+                <input type="email" name="email" id="email" maxlength="38" required placeholder="E-mail">
+                <input type="text" name="fone" id="fone" maxlength="17" required placeholder="Telefone">
+                <input type="submit" value="Enviar" class="botao">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

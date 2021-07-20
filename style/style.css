@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+:root {
+
+    --cor-fonte-principal: aliceblue;
+    --cor-fonte-secundaria: gray;
+    --cor-fundo-principal: black;
+    --cor-fundo-secundaria: #222;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: var(--cor-fonte-principal);
+    background-color: var(--cor-fundo-principal) ;
+    margin: 0;
+
+}
+
+nav {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 100%;
+    width: 100%;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--cor-fonte-principal);
+    font-weight: bold;
+
+}
+
+header {
+
+    height: 250px;
+    width: 100%;
+
+}
+
+#inicio p {
+
+    font-size: 1.15rem;
+    margin-top: 5%;
+
+}
+
+#inicio h1 {
+
+    font-size: 5rem;
+    margin: 0;
+
+}
+
+.fade-in {
+
+    animation: fadein 3s;
+
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.quem-somos h2 {
+
+    font-size: 1.15rem;
+    font-weight: bold;
+
+}
+
+.quem-somos p {
+
+    font-size: 1.05rem;
+    line-height: 1.5;
+
+}
+
+.conheca {
+
+    font-weight: bold;
+
+}
+
+#funcionarios ul {
+
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+img {
+
+    width: 50%;
+
+}
+
+#funcionarios img {
+
+    margin: 0;
+    align-items: center;
+    animation: fadein 2s;
+
+}
+
+.portfolio p {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.05rem;
+
+}
+
+.portfolio ul {
+
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.portfolio li {
+
+    display: inline;
+
+}
+.portfolio img {
+
+    width: 25%;
+
+}
+
+#orcamento p {
+
+    margin-bottom: 0;
+
+}
+
+table {
+
+    margin: auto;
+
+}
+
+table caption {
+
+    font-size: 3rem;
+    padding-bottom: 5%;
+
+}
+
+#orcamento button {
+
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.05rem;
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; } /* Padrão */
+    }
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; } /* Firefox */
+    }
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; } /* Webkit */
+    }
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; } /* IE */
+    }@media (min-width: 768px) { 
+    
+        nav {
+    
+            height: 100px;
+            margin: 5% 0;
+    
+        }
+    
+        nav li {
+    
+            display: inline;
+            padding: 0 5%;
+    
+        }
+    
+        header {
+    
+            height: 850px;
+    
+        }
+    
+        #inicio p {
+    
+            font-size: 1.7rem;
+    
+        }
+    
+        #inicio h1 {
+    
+            font-size: 8rem;
+    
+        }
+    
+        .container h2 {
+    
+            font-size: 3rem;
+            
+        }
+    
+        .container  p {
+    
+            font-size: 1.45rem;
+            margin: 5% 30%;
+            
+        }
+    
+        #funcionarios h3 {
+    
+            font-size: 2.25rem;
+    
+        }
+    
+        #funcionarios img {
+    
+            width: 20%;
+    
+        }
+    
+    }
